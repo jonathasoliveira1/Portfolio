@@ -1,4 +1,4 @@
-Projeto desenvolvido por Jonathas Oliveira, para ser simbolicamente meu "primeiro" portfolio.
+# Projeto desenvolvido por Jonathas Oliveira, para ser simbolicamente meu "primeiro" portfolio.
 
 # I'm Jonathas Oliveira Souza 🚀 
 
