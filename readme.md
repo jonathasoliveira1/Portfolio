@@ -8,7 +8,6 @@ Hello everyone 👋 !! I'm from Rio de Janeiro, Brazil. I'm currently studying a
 - 👩🏽‍🎓 Studying degree in **Information Systems**.
 - 💬 Collaboration is the secret!;
 - 💬 Practitioner and Student of the best Softskills for life and performance;
-- 📄 Take a look at my [Resume](https://curriculo-john.web.app/);
 
 <div align="center">
  
