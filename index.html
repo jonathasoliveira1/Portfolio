@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Jonathas Oliveira</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MIM</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTATO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/2.jpg" alt="">
+            </div>
+            <h1>Jonathas Oliveira</h1>
+            <h2>Just a beginner in tech. Software engineer student at Universidade Anhanguera</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/joeyolivetti/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/Jonatha74792615"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/jonathas-oliveira-05a578164/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre MIM</h2>
+            <p><span>Hello everyone 👋 !!.</span>  I'm from Rio de Janeiro, Brazil. I'm currently studying and I'm Junior Fullstack Developer.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Dados Pesssoas</h3>
+                    <ul>
+                        <li>
+                            <strong>Idade</strong>
+                            15-03-1995
+                        </li>
+                        <li>
+                            <strong>Telefone</strong>
+                            (21) 965801159
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            jonathas.o.dev@gmail.com
+                        </li>
+                        <li>
+                            <strong>Github</strong>
+                            github.com/jonathasoliveira1
+                        </li>
+                        <li>
+                            <strong>Localidade</strong>
+                            Rio de Janeiro, Brasil!
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desenvolvedor and Cloud</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3> Interesses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JOGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>Aventuras</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIVROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                BAIXAR Curriculo <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ionic 6</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Scrum</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicação</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabalho em Equipe</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Criatividade</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicação</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Empatia</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educação</h3>
+                    <div class="item izq">
+                        <h4>Analise e desenvolvimento de Sistemas</h4>
+                        <span class="casa">Universidad Anhanguera</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnico em Informatica</h4>
+                        <span class="casa">Instituto Tecnico INEP</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Gestão Empresarial</h4>
+                        <span class="casa">Instituto Tecnico INEP</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabalho</h3>
+                    <div class="item der">
+                        <h4>Mobile Developer</h4>
+                        <span class="casa">Bassan Tecnologia</span>
+                        <span class="fecha">2022 - 2022</span>
+                        <p>Construção e manutenção de aplicações web Mobile em Ionic 6 - Frameworks, Sass &
+                            Angular
+                            Monitoramento de banco de dados MySQL
+                            Organização do Figma & JIRA</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Ministerio Publico do Estado do Rio de Janeiro</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p> Manutenção & Monitoramente dos Sites
+                            Atualização & Implementação de novos projetos nas linguagens PHP, Mysql, HTML, SCSS & JavaScript
+                            Monitoramento de banco de dados MySQL
+                            </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/GitHub.jpg" alt=""></a>
+                    <div class="overlay">
+                        <h3>Meus Projetos</h3>
+                        <p>Github</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/GitHub.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Meus Projetos</h3>
+                        <p>Github</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/GitHub.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Meus Projetos</h3>
+                        <p>Github</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/GitHub.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Meus Projetos</h3>
+                        <p>Github</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/GitHub.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Meus Projetos</h3>
+                        <p>Github</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/GitHub.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Meus Projetos</h3>
+                        <p>Github</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTATO</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Seu nome">
+                    <input type="text" placeholder="Numero de Telefone">
+                    <input type="text" placeholder="Seu melhor Email">
+                    <input type="text" placeholder="Assunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                    <button>
+                        Enviar Mensagem <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <div class="col">
+                    <img src="img/Capturar.PNG" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                               Rio de Janeiro, Brasil
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                (21) 965801159
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: Jonathas.o.dev@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
