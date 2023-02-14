@@ -14,7 +14,7 @@ Hello everyone 👋 !! I'm from Rio de Janeiro, Brazil. I'm currently studying a
  
 <img src=".https://i.postimg.cc/nLGpn3Ht/download20210902183145.png" width="100px">
 
-Actually learning **Ionic**, **TypeScript** and **AWS**
+Actually learning **AWS**, **AZ-900**, **Kurbenetes**, **DevOps** and **Docker**
 <br>
 </div>
 
